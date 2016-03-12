@@ -1,0 +1,25 @@
+{
+  "name": "AppConfig",
+  "version": "0.0.1",
+  "description": "A plugin to read iOS app plist file.",
+  "cordova": {
+    "id": "cordova-plugin-app-config",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackFoks/cordova-plugin-app-config.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "George Bragin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackFoks/cordova-plugin-app-config/issues"
+  },
+  "homepage": "https://github.com/BlackFoks/cordova-plugin-app-config#readme"
+}
