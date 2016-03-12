@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-app-config" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>AppConfig</name>
+    <js-module name="AppConfig" src="www/AppConfig.js">
+        <clobbers target="cordova.plugins.AppConfig" />
+    </js-module>
+</plugin>
