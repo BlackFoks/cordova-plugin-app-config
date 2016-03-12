@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function(arg0, success, error) {
-    exec(success, error, "AppConfig", "coolMethod", [arg0]);
-};
+exports.fetch = function(fields, success, error) {
+  exec(success, error, 'AppConfig', 'fetch', fields || [])
+}
