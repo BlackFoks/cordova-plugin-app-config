@@ -1,5 +1,5 @@
 {
-  "name": "AppConfig",
+  "name": "cordova-plugin-app-config",
   "version": "0.0.1",
   "description": "A plugin to read iOS app plist file.",
   "cordova": {
