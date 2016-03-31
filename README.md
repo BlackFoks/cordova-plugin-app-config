@@ -54,3 +54,9 @@ Android:
 ```
 
 You can specify any fields you want. Only specified fields will be returned.
+
+## Publishing new version
+
+1. Update package.json
+2. Update plugin.xml
+3. `npm publish .`
