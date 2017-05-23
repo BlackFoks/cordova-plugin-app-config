@@ -18,7 +18,9 @@
   for (NSString* key in command.arguments)
   {
     NSLog(@"%@", key);
-    [resultDictionary setObject:[info objectForKey:key] forKey:key];
+    if (key && [info objectForKey:key]) {
+      [resultDictionary setObject:[info objectForKey:key] forKey:key];
+    }
   }
 
   CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:resultDictionary];
