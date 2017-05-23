@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-app-config",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A plugin to read iOS app plist file.",
   "cordova": {
     "id": "cordova-plugin-app-config",
