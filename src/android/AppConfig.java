@@ -32,16 +32,15 @@ public class AppConfig extends CordovaPlugin {
 
       for (int i = 0; i < fields.length(); i++) {
         String field = fields.getString(i);
-        String value = bundle.getString(field);
-        if (value == null) {
-          int intValue = bundle.getInt(field);
-          value = Integer.toString(intValue);
+
+        if (bundle.containsKey(field)) {
+          Object value = bundle.get(field);
+          options.put(field, value);
         }
-        options.put(field, value);
       }
 
       callbackContext.success(options);
-  	} catch (Exception ex) {
+    } catch (Exception ex) {
       callbackContext.error("Can't read application settings.");
     }
   }
