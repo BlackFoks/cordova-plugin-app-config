@@ -1,4 +1,4 @@
-package com.orderhub.cordova;
+package com.orderhub.app_config;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

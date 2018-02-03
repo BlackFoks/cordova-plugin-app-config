@@ -20,11 +20,10 @@
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="AppConfig">
-        <param name="android-package" value="com.orderhub.cordova.AppConfig" />
+        <param name="android-package" value="com.orderhub.app_config.AppConfig" />
       </feature>
     </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml">
-    </config-file>
-    <source-file src="src/android/AppConfig.java" target-dir="src/cordova-plugin-app-config/AppConfig" />
+    <config-file parent="/*" target="AndroidManifest.xml"/>
+    <source-file src="src/android/AppConfig.java" target-dir="src/com/orderhub/app_config" />
   </platform>
 </plugin>
