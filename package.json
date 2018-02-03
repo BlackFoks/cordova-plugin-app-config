@@ -5,7 +5,8 @@
   "cordova": {
     "id": "cordova-plugin-app-config",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   },
   "repository": {
@@ -14,7 +15,8 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova-android"
   ],
   "author": "George Bragin",
   "license": "MIT",
